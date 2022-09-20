@@ -642,6 +642,16 @@ select:visited {
   position: absolute;
   background-color: #ea1e00;
 }
+@media screen and (max-width: 891px){
+  .ft-header-section.header-style-one {
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  /*position: absolute;*/
+  background-color: #ea1e00;
+}
+}
 .ft-header-section.header-style-one .dropdown-menu {
   top: 48px;
 }
@@ -6184,6 +6194,7 @@ input[type=number] {
   .ft-service-slider-item {
     margin: 0 auto;
     max-width: 270px;
+    margin-top: 15px;
   }
 
   .ft-counterup-innerbox .ft-counterup-text h3 {
@@ -6628,7 +6639,7 @@ input[type=number] {
 
   .ft-btn a {
     height: 50px;
-    width: 150px;
+    width: 200px;
   }
 
   .ft-service-section {
