@@ -150,7 +150,7 @@
 										</li>
 										<li><a href="<?php echo base_url(); ?>About">About Us</a></li>
 										<li class="dropdown">
-											<a href="<?php base_url()?>Home">Our Services</a>
+											<a href="<?php base_url()?>Service">Our Services</a>
 											<ul class="dropdown-menu clearfix">
 												<li><a href="<?php echo base_url(); ?>Marketing_and_coordination">Marketing and Coordination </a></li>
 												<li><a href="<?php echo base_url(); ?>Logistic_Support">Logistics support and Physical Store </a></li>
@@ -161,7 +161,7 @@
 											</ul>
 										</li>
 										<li class="dropdown">
-											<a href="<?php echo base_url();?>Home">Work With Us</a>
+											<a href="<?php echo base_url();?>Job_Portal">Work With Us</a>
 											<ul class="dropdown-menu clearfix">
 												<li><a href="<?php echo base_url();?>Job_Portal">Job Portal</a></li>
 												
