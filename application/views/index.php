@@ -68,13 +68,49 @@
       .partner-img-card{
          margin-left: -37px;
          /*box-shadow: 2px 2px 2px 2px #acacac;*/
-
-
       }
       .ft-about-exp-text{
          margin-top: -220px;
          padding: 0px 20px;
     
+      }
+
+      @media screen and (max-width: 891px){
+           .partner-img{
+                margin-top: 30%;
+    height: 176px;
+    margin-left: -2%;
+    width: 60%;
+    visibility: visible;
+    animation-duration: 1500ms;
+    animation-delay: 0ms;
+    animation-name: fadeInUp;
+    }
+     .partner-img-card{
+         margin-left: -37px;
+         /*box-shadow: 2px 2px 2px 2px #acacac;*/
+      }
+      .multifaceted{
+             margin: -83% 0px 0px 37%;
+    /* margin-left: 225px; */
+    padding: 1px;
+}
+
+.ft-about-exp-text {
+    margin-top: -188px;
+    padding: 0px 17px;
+}
+      }
+
+
+          .ft-why-choose-section-img{
+            display: none;
+          }
+         .ft-why-choose-text-area {
+    width: 100%;
+    float: right;
+    margin-top: 20%;
+}
       }
 
       </style>
@@ -91,7 +127,7 @@
          <rs-module id="rev_slider_27_1" style="    width: 1349px; max-height: 930px; height: 782px;" data-version="6.5.8">
             <rs-slides>
                <rs-slide style="position: absolute;" data-key="rs-70" data-title="Slide" data-thumb="<?php echo base_url();?>assets/slider-1-50x100.jpg" data-in="o:0;" data-out="a:false;">
-                  <img src="<?php echo base_url(); ?>assets/slider-1.jpg" alt="Image" title="slider-1" width="1614" height="908" class="rev-slidebg tp-rs-img" data-parallax="3" data-panzoom="d:10000;ss:100;se:120%;" data-no-retina>
+                  <img src="<?php echo base_url(); ?>assets/slider-1.jpg" alt="Image" title="slider-1" width="100%" height="908" class="rev-slidebg tp-rs-img" data-parallax="3" data-panzoom="d:10000;ss:100;se:120%;" data-no-retina>
                   <rs-layer
                      id="slider-27-slide-70-layer-0" 
                      data-type="image"
@@ -101,7 +137,7 @@
                      data-basealign="slide"
                      data-frame_999="o:0;st:w;"
                      style="z-index:8;"
-                     ><img src="<?php echo base_url(); ?>assets/slider-shape1.png" alt="" class="tp-rs-img" width="1903" height="770" data-c="cover-proportional" data-no-retina> 
+                     ><img src="<?php echo base_url(); ?>assets/slider-shape1.png" alt="" class="tp-rs-img" width="100%" height="770" data-c="cover-proportional" data-no-retina> 
                   </rs-layer>
                   <rs-layer class="slider_text"
                      id="slider-27-slide-70-layer-1" 
@@ -115,7 +151,7 @@
                      data-frame_1_chars="e:power4.inOut;d:10;oZ:-50;"
                      data-frame_999="o:0;st:w;"
                      style="z-index:9;font-family:'Poppins';
-                     margin-top: -65px;"
+                     margin-top: -35px;"
                      >IGCPL is a Channel<br> Partner  Aggregator  <br>& Cashflow Manager
                   </rs-layer>
                   <rs-layer
@@ -373,7 +409,7 @@
          <div class="container">
             <div class="ft-about-content">
                <div class="row" >
-                  <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                  <div class="col-lg-6 col-sm-6 col-md-6 wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                      <div class="ft-about-img-exp position-relative">
                         
                         <div class="ft-about-img ">
@@ -384,16 +420,16 @@
                           <!--   <div class="ft-about-exp-area headline pera-content position-absolute mb-4"> -->
                            
                              <div class="row mx-1" >
-                               <div class="col-md-6 col-sm-6">
+                               <div class="col-lg-6 col-md-6  col-sm-6">
                                   <div class="mt-5">
                                      <img src="<?php echo base_url(); ?>assets/img/about/partner team.png" alt="" class="partner-img ft-about-feature-list-item"> 
                                   </div>
                                </div>
                                 <div class="col-md-6 col-sm-6">
-                                  <div class="">
+                                  <div class="multifaceted">
                                      <img src="<?php echo base_url(); ?>assets/img/shape/exp-sh1.png" alt="" class="partner-img-card">
                                      <div class="ft-about-exp-text position-absolute">
-                                     <h3 class="" style="font-size: 23px;color: #00054c;"> “Multifaceted<br> and <br> Experienced<br> Team”</h3> </div>
+                                     <h3 class="" style="font-size: 20px;color: #00054c;"> “Multifaceted<br> and <br> Experienced<br> Team”</h3> </div>
                                   </div>
                                </div>
                              </div> 
