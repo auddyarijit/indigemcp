@@ -100,7 +100,31 @@
     margin-top: -188px;
     padding: 0px 17px;
 }
-      }
+#slider-27-slide-70-layer-1{
+       z-index: 9;
+    font-family: Poppins;
+    margin-top: -6px!important;
+    height: auto;
+    width: auto;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    white-space: nowrap;
+    min-height: 0px;
+    min-width: 0px;
+    max-height: none;
+    max-width: none;
+    text-align: left;
+    line-height: 35px;
+    letter-spacing: 0px;
+    font-weight: 700;
+    font-size: 35px;
+    transform-style: preserve-3d;
+    transform-origin: 50% 50%;
+    transform: perspective(600px);
+    opacity: 1;
+    visibility: visible;
+}
+      
 
 
           .ft-why-choose-section-img{
